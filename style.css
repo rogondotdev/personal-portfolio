@@ -238,17 +238,14 @@ nav ul li a:hover {
   .hero--wrapper {
     column-gap: 2em;
   }
-  #hero {
-    height: 180vh;
-    padding: 15% 13%;
-  }
-  
-}
-@media (max-width: 870px) {
   #hero{
     height: 100vh;
     padding: 20% 13%;
   }
+  
+}
+@media (max-width: 870px) {
+  
   .hero--picture img,
   .quotation-mark {
     display: none;
