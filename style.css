@@ -276,7 +276,7 @@ nav ul li a:hover {
 @media (max-width: 535px) {
   #hero {
     height: 850px;
-    padding: 10% 0;
+    padding: 30% 0;
   }
   .hero--content h1 {
     font-size: 3rem;
