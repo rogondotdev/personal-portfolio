@@ -245,7 +245,9 @@ nav ul li a:hover {
   
 }
 @media (max-width: 870px) {
-  
+  #hero{
+    height: 180vh;
+  }
   .hero--picture img,
   .quotation-mark {
     display: none;
