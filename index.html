@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Leonel Rogon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonel Rogon | Personal Portfolio</title>
+    <link rel="stylesheet" href="/personal-portfolio/style.css" />
+    <link rel="icon" href="/personal-portfolio/pictures/my-logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>ROGONDOTDEV</h2>
+      <nav>
+        <ul class="sidebar">
+          <div class="ekis">
+            <li onclick="hideSidebar()"><i class="ri-close-line"></i></li>
+          </div>
+          <li onclick="hideSidebar()"><a href="#hero">Home</a></li>
+          <li onclick="hideSidebar()"><a href="#about">About</a></li>
+          <li onclick="hideSidebar()"><a href="#projects">Projects</a></li>
+          <li onclick="hideSidebar()"><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+          <li class="hideonmobile"><a href="#hero">Home</a></li>
+          <li class="hideonmobile"><a href="#about">About</a></li>
+          <li class="hideonmobile"><a href="#projects">Projects</a></li>
+          <li class="hideonmobile"><a href="#contact">Contact</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"><i class="ri-menu-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <script>
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+
+    <section id="hero">
+      <div class="hero--wrapper">
+        <div class="hero--content">
+          <img
+            class="quotation-mark"
+            src="/personal-portfolio/pictures/quotation-mark.png"
+            alt="quotation mark"
+          />
+          <h1>Leonel R. Rogon</h1>
+          <h3>Front-end Developer</h3>
+          <p class="content--statement">
+            Making <span>Creative</span>, <span>Interactive</span>, and
+            <span>Responsive</span> Websites that is <span>Accessible</span> for
+            all the people around the world.
+          </p>
+          <a href="#projects" class="primary--button">Recent Works</a>
+          <div class="social-links">
+            <a href="https://www.facebook.com/leonlrgn/about"
+              ><i class="ri-facebook-fill" title="Facebook"></i
+            ></a>
+
+            <a href="https://www.instagram.com/rogondotdev/">
+              <i class="ri-instagram-line" title="Instagram"></i
+            ></a>
+
+            <a href="https://github.com/LeonelDev10">
+              <i class="ri-github-fill" title="GitHub"></i
+            ></a>
+
+            <a href="https://www.linkedin.com/in/leonel-rogon-9616a7332/">
+              <i class="ri-linkedin-fill" title="LinkedIn"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero--picture">
+          <img
+            src="/personal-portfolio/pictures/graduation-picture.jpg"
+            alt="Leonel Rogon's Graduation Picture"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about--wrapper">
+        <div class="main-title">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="big-container">
+          <div class="about--statement">
+            <h3>Background</h3>
+            <p>
+              From Quezon City, Philippines. Born on the 30th of April in 2007,
+              studied at Balingasa Elementary, and High School.
+            </p>
+          </div>
+
+          <div class="about--statement">
+            <h3>Coding history</h3>
+            <p>
+              Started to take coding seriously on October 2024, learning first
+              the HTML and CSS, followed by git and github, and JavaScript.
+            </p>
+          </div>
+
+          <div class="about--statement">
+            <h3>Other Things</h3>
+            <p>
+              Aside from coding, I also like playing Basketball, Play calming
+              and energizing music while coding, like r&b soul and hiphop.
+            </p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="resume">
+          <div class="resume-container">
+            <h2>You can Download my resume here</h2>
+            <a
+              href="/personal-portfolio/pictures/Leonel Rogon (Resume).pdf"
+              download=""
+            >
+              <i class="ri-folder-download-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="first-type-project">
+        <div class="project-preview">
+          <img
+            src="/personal-portfolio/pictures/website-preview.png"
+            alt="Website Preview"
+          />
+        </div>
+        <div class="project-details">
+          <h3>My Personal Portfolio</h3>
+          <p>
+            This is my first ever project. I apply in this project the things I
+            learn in HTML and CSS like Semantic HTML, Forms and Input, Linking
+            sections, Nested Flexbox, hex colors, and many more.
+          </p>
+          <div class="demo-and-used">
+            <a href="index.html">Live Demo</a>
+            <div class="technology-used">
+              <i class="ri-html5-fill"></i>
+              <i class="ri-css3-fill"></i>
+              <i class="ri-javascript-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-type-project">
+        <div class="project-details">
+          <div class="project-details">
+            <h3>Website Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam
+              tempora autem velit minima suscipit distinctio similique
+              architecto eos laborum nesciunt neque necessitatibus ut dolore,
+              aliquam voluptates, aperiam ex. Quisquam!
+            </p>
+            <div class="demo-and-used">
+              <a href="#">Live Demo</a>
+              <div class="technology-used">
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="ri-javascript-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-preview">
+          <div class="project-preview">
+            <img
+              src="/personal-portfolio/pictures/website-preview.png"
+              alt="Website Preview"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="first-type-project">
+        <div class="project-preview">
+          <img
+            src="/personal-portfolio/pictures/website-preview.png"
+            alt="Website Preview"
+          />
+        </div>
+        <div class="project-details">
+          <h3>Website Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam
+            tempora autem velit minima suscipit distinctio similique architecto
+            eos laborum nesciunt neque necessitatibus ut dolore, aliquam
+            voluptates, aperiam ex. Quisquam!
+          </p>
+          <div class="demo-and-used">
+            <a href="#">Live Demo</a>
+            <div class="technology-used">
+              <i class="ri-html5-fill"></i>
+              <i class="ri-css3-fill"></i>
+              <i class="ri-javascript-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-type-project">
+        <div class="project-details">
+          <div class="project-details">
+            <h3>Website Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam
+              tempora autem velit minima suscipit distinctio similique
+              architecto eos laborum nesciunt neque necessitatibus ut dolore,
+              aliquam voluptates, aperiam ex. Quisquam!
+            </p>
+            <div class="demo-and-used">
+              <a href="#">Live Demo</a>
+              <div class="technology-used">
+                <i class="ri-html5-fill"></i>
+                <i class="ri-css3-fill"></i>
+                <i class="ri-javascript-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-preview">
+          <div class="project-preview">
+            <img
+              src="/personal-portfolio/pictures/website-preview.png"
+              alt="Website Preview"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="first-type-project">
+        <div class="project-preview">
+          <img
+            src="/personal-portfolio/pictures/website-preview.png"
+            alt="Website Preview"
+          />
+        </div>
+        <div class="project-details">
+          <h3>Website Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam
+            tempora autem velit minima suscipit distinctio similique architecto
+            eos laborum nesciunt neque necessitatibus ut dolore, aliquam
+            voluptates, aperiam ex. Quisquam!
+          </p>
+          <div class="demo-and-used">
+            <a href="#">Live Demo</a>
+            <div class="technology-used">
+              <i class="ri-html5-fill"></i>
+              <i class="ri-css3-fill"></i>
+              <i class="ri-javascript-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="main-title">
+        <h2>Contact Me</h2>
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <h3 class="title">Send me an Email</h3>
+
+        <input
+          type="hidden"
+          name="access_key"
+          value="8b16ce22-1f2b-4242-a836-eea5f0880a72"
+        />
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="40"
+          rows="10"
+          placeholder="Input your message"
+        ></textarea>
+        <div class="buttons">
+          <button type="submit" class="submit">Submit</button>
+        </div>
+        <a href="#hero"
+          ><i class="ri-arrow-up-double-line" title="Back to Top"></i
+        ></a>
+      </form>
+
+      <div class="check-me-out">
+        <h3>Check Me Out</h3>
+        <div class="check-link">
+          <a href="https://www.facebook.com/leonlrgn/about"
+            ><i class="ri-facebook-fill" title="Facebook"></i
+          ></a>
+
+          <a href="https://www.instagram.com/rogondotdev/">
+            <i class="ri-instagram-line" title="Instagram"></i
+          ></a>
+
+          <a href="https://github.com/LeonelDev10">
+            <i class="ri-github-fill" title="GitHub"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/leonel-rogon-9616a7332/">
+            <i class="ri-linkedin-fill" title="LinkedIn"></i
+          ></a>
+        </div>
+        <hr />
+      </div>
+      <p>&copy 2024, All rights reserved</p>
+    </footer>
+  </body>
+</html>
