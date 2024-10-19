@@ -238,11 +238,15 @@ nav ul li a:hover {
   .hero--wrapper {
     column-gap: 2em;
   }
+  
 }
 @media (max-width: 870px) {
   .hero--picture img,
   .quotation-mark {
     display: none;
+  }
+  .hero--wrapper{
+    column-gap: none;
   }
   .hero--content {
     align-items: center;
@@ -278,6 +282,7 @@ nav ul li a:hover {
     height: 850px;
     padding: 30% 0;
   }
+  
   .hero--content h1 {
     font-size: 3rem;
   }
