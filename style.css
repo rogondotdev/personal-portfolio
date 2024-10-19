@@ -280,7 +280,6 @@ nav ul li a:hover {
 @media (max-width: 535px) {
   #hero {
     height: 850px;
-    padding: 10% 0;
   }
   
   .hero--content h1 {
