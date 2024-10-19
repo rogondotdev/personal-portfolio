@@ -238,11 +238,6 @@ nav ul li a:hover {
   .hero--wrapper {
     column-gap: 2em;
   }
-  #hero{
-    height: 100vh;
-  padding: 18% 13% 12%;
-  }
-  
 }
 @media (max-width: 870px) {
   
