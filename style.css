@@ -63,7 +63,7 @@ header h2:hover {
   width: 250px;
   z-index: 999;
   backdrop-filter: blur(10px);
-  background-color: #ce3631d7;
+  background-color: #ce363150;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   padding: 3rem 0;
   font-size: 3rem;
