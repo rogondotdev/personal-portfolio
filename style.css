@@ -241,6 +241,10 @@ nav ul li a:hover {
   
 }
 @media (max-width: 870px) {
+  #hero {
+    height: 150vh;
+    padding: 10% 13%;
+  }
   .hero--picture img,
   .quotation-mark {
     display: none;
@@ -278,10 +282,6 @@ nav ul li a:hover {
   }
 }
 @media (max-width: 535px) {
-  #hero {
-    height: 100vh;
-    padding: 15% 10%;
-  }
   
   .hero--content h1 {
     font-size: 3rem;
