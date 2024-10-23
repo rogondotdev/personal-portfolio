@@ -137,8 +137,9 @@ nav ul li a:hover {
 #hero {
   background-color: #d7cbbd;
   color: #2c2925;
-  height: 850px;
-  padding: 15% 13% 12%;
+  min-height: 100vh;
+  padding-block: 15% 12%;
+  padding-inline: 13%;
   display: flex;
   align-items: center;
   justify-content: center;
